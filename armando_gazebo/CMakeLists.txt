@@ -27,4 +27,8 @@ install(
   DIRECTORY launch
   DESTINATION share/${PROJECT_NAME}/launch
 )
+install(
+  DIRECTORY urdf/
+  DESTINATION share/${PROJECT_NAME}/urdf
+)
 ament_package()
