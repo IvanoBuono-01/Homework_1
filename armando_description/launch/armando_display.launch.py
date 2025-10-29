@@ -8,7 +8,7 @@ def generate_launch_description():
     arm_description_path = os.path.join(get_package_share_directory('armando_description'))
     
     # Percorso al file urdf
-    urdf_path = os.path.join(arm_description_path, "urdf", "arm.urdf")
+    urdf_path = os.path.join(arm_description_path, "urdf", "armando.urdf.xacro")
     
     # Percorso al file rviz config 
     rviz_config = os.path.join(arm_description_path, "config", "config.rviz")
